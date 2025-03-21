@@ -45,7 +45,7 @@ const Newsapp = () => {
             </div>
         </nav>
         <div>
-            <p className='head'>Stay Update with TrendyNews</p>
+            <p className='head'>Stay Informed, Stay Ahead.</p>
         </div>
         <div className='categoryBtn'>
             <button onClick={userInput} value="sports">Sports</button>
