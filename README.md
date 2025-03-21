@@ -3,7 +3,9 @@ InfoBlaze is a web application that aggregates and displays news articles from v
 
 ## Features
 **News Aggregation:** Fetches and displays news articles from multiple sources.
+
 **Responsive Design:** Ensures optimal viewing on various devices.
+
 **User-Friendly Interface:** Simplifies navigation and article reading.
 
 ## Installation
@@ -19,7 +21,17 @@ To set up the project locally, follow these steps:
 
 -> npm install
 
-**3. Start the development server:**
+**3. Set up environment variables:**
+
+-> Go to NewsApi.org website and get your unique API key after signing up.
+
+-> Create a .env file within repo's root directory in your local machine using VS code (or any other IDE).
+
+-> In .env file type: API_KEY=YOUR_API_KEY 
+
+-> Here, replace YOUR_API_KEY with your unique API key from the website NewsApi.org.
+
+**4. Start the development server:**
 
 -> npm start
 
