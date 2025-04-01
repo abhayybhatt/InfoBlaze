@@ -27,7 +27,9 @@ To set up the project locally, follow these steps:
 
 -> Create a .env file within repo's root directory in your local machine using VS code (or any other IDE).
 
+-> In .env file type: VITE_API_KEY=YOUR_API_KEY 
 -> In .env file type: API_KEY=YOUR_API_KEY 
+-> In .env file type: PORT=3000
 
 -> Here, replace YOUR_API_KEY with your unique API key from the website NewsApi.org.
 
