@@ -13,7 +13,7 @@ const LoadingScreen = () => {
         <div className="loading-spinner">
           <div className="spinner"></div>
         </div>
-        <p className="loading-text">Loading the latest tech news...</p>
+        <p className="loading-text">Stay Ahead, Stay Informed.</p>
       </div>
     </div>
   );
