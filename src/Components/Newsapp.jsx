@@ -180,12 +180,7 @@ const Newsapp = () => {
                 <div className="logo-section">
                     <div className="logo-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <rect x="4" y="4" width="16" height="16" rx="2" />
-                            <circle cx="12" cy="12" r="3" />
-                            <path d="M12 8V5" />
-                            <path d="M12 19v-3" />
-                            <path d="M16 12h3" />
-                            <path d="M5 12h3" />
+                            <path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z"/>
                         </svg>
                     </div>
                     <h1>InfoBlaze</h1>
@@ -262,7 +257,11 @@ const Newsapp = () => {
             </div>
 
             <div>
-                {newsData ? <Card data={newsData} darkMode={darkMode} /> : <div className="loading">Loading technology news...</div>}
+                {newsData ? <Card data={newsData} darkMode={darkMode} /> : 
+                <div className="inline-loading">
+                    <div className="spinner"></div>
+                    <p>Loading technology news...</p>
+                </div>}
             </div>
         </div>
     )
